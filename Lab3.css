@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+}
+body{ 
+    background-image: url(./istockphoto-1126460506-612x612.jpg);
+    width: 100vw;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.card{ 
+    background-color: white;
+    height: 80vh;
+    width: 25vw;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#Login{ 
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800rem;
+    font-style: normal;
+  }
+.line{ 
+    border-bottom: 1px solid black;}
+  
+
