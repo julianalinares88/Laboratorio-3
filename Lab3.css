@@ -26,17 +26,44 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-around;
+    
+    
 
 }
 
 #Login{ 
+    margin: 20px;
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 800rem;
     font-style: normal;
   }
 .line{ 
-    border-bottom: 1px solid black;}
+    border-bottom: 1px solid black;
+}
+
+.inpt {
+    border: 0;
+}
+
+.img{
+    height: 30px;
+    width: 30 px;
+    border-radius: 50%;
+}
+
+.button{
+    background: rgb(59,183,193);
+background: linear-gradient(95deg, rgba(59,183,193,1) 0%, rgba(254,54,222,1) 100%, rgba(254,54,222,1) 100%);
+    width: 15vw;
+    height: 4vh;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+
+}
+
+
+
   
 
